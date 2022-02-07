@@ -12,7 +12,19 @@ Fitting arbitrary curves with an increasing number of parameters of freedom usin
 
 | ![images/math_projects/Elephant 0001.png] | 
 |:--:| 
-| *Space* |
+| *1 degree of freedom* |
+
+| ![images/math_projects/Elephant 0012.png] | 
+|:--:| 
+| *12 degree of freedom* |
+
+| ![images/math_projects/Elephant 0087.png] | 
+|:--:| 
+| *87 degree of freedom* |
+
+| ![images/math_projects/Elephant 1000.png] | 
+|:--:| 
+| *1000 degree of freedom* |
 
 ### Kalman-Bucy Filter
 

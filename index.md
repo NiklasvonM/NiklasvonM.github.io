@@ -2,18 +2,18 @@
 
 ---
 
-### Category Name 1 
+### Personal Projects
 
 [Personal Dashboard](/personal_dashboard)
-<img src="images/Akkorddiagramm anonymisiert.png?raw=true"/>
+<img src="images/personal_dashboard/Akkorddiagramm anonymisiert.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Math Projects](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Math Projects](/math_project.md)
+<img src="images/math_project/math_project_thumbnail.png?raw=true"/>
 
 <!---
 ---
