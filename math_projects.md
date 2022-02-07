@@ -8,23 +8,31 @@
 >
 > -- <cite>John von Neumann</cite>
 
-Fitting arbitrary curves with an increasing number of parameters of freedom using Fourier Descriptors.
+Fitting curves with increasing deegrees of freedom using Fourier Descriptors. In this case I fit an elephant, but yes, this works for arbitrary curves!
 
-| ![1 degree of freedom](images/math_projects/Elephant 0001.png) | 
+| ![a poorly fitted elephant](images/math_projects/Elephant 0001.png) | 
 |:--:| 
 | *1 degree of freedom* |
 
-| ![12 degree of freedom test](images/math_projects/Elephant 0012.png) | 
+| ![an okayishly fitted elephant](images/math_projects/Elephant 0012.png) | 
 |:--:| 
 | *12 degrees of freedom* |
 
-| ![images/math_projects/Elephant 0087.png] | 
+| ![a well fitted elephant](images/math_projects/Elephant 0087.png) | 
 |:--:| 
 | *87 degrees of freedom* |
 
-| ![images/math_projects/Elephant 1000.png] | 
+| ![a perfectly fitted elephant](images/math_projects/Elephant 1000.png) | 
 |:--:| 
 | *1000 degrees of freedom* |
 
 ### Kalman-Bucy Filter
+
+### Frequenzanalyse
+
+### Playing with Mathematical Curves
+
+| ![gif of the Koch snowflake](images/math_projects/Kochkurve Winkel.gif) | 
+|:--:| 
+| *playing with the parameters of the Koch snowflake* |
 
