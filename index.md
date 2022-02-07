@@ -12,7 +12,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Math Projects](/math_project.md)
+[Math Projects](/math_project)
 <img src="images/math_project/math_project_thumbnail.png?raw=true"/>
 
 <!---
