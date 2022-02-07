@@ -10,21 +10,21 @@
 
 Fitting arbitrary curves with an increasing number of parameters of freedom using Fourier Descriptors.
 
-| ![images/math_projects/Elephant 0001.png] | 
+| ![1 degree of freedom](images/math_projects/Elephant 0001.png) | 
 |:--:| 
 | *1 degree of freedom* |
 
-| ![images/math_projects/Elephant 0012.png] | 
+| ![12 degree of freedom test](images/math_projects/Elephant 0012.png) | 
 |:--:| 
-| *12 degree of freedom* |
+| *12 degrees of freedom* |
 
 | ![images/math_projects/Elephant 0087.png] | 
 |:--:| 
-| *87 degree of freedom* |
+| *87 degrees of freedom* |
 
 | ![images/math_projects/Elephant 1000.png] | 
 |:--:| 
-| *1000 degree of freedom* |
+| *1000 degrees of freedom* |
 
 ### Kalman-Bucy Filter
 
