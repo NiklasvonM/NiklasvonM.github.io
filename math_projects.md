@@ -1,6 +1,6 @@
 ## Math Projects
 
-**Project description:** Fun and/or interesting projects during my mathematics studies.
+In the following, I am showing some fun and/or interesting projects I have developed during or inspired by my mathematics studies.
 
 ### Fitting an Elephant
 

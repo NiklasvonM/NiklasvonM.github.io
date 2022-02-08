@@ -1,6 +1,6 @@
 ## Personal Dashboard
 
-**Project description:** I've been tracking my mood, activities and location using <a href="https://daylio.net/" target="_blank" rel="noopener noreferrer">Daylio</a> and the Google Maps Timeline for a couple of years and visualized and analyzed this data. For this purpose, I have developed a R Shiny app of which I am sharing a small excerpt with partially anonymized data.
+I've been tracking my mood, activities and location using <a href="https://daylio.net/" target="_blank" rel="noopener noreferrer">Daylio</a> and the Google Maps Timeline for a couple of years and visualized and analyzed this data. For this purpose, I have developed a R Shiny app of which I am sharing a small excerpt with partially anonymized data.
 
 ### Activity Correlation
 
@@ -14,10 +14,13 @@
 
 ### Mood Distribution
 
+As understanding my own mood is the main focus of this project, I have put a good portion of my effort in visualizing my mood distribution w.r.t. the activities I track.
+
 | ![mood distribution with family without allergy and exam](images/personal_dashboard/mood distribution with or without activities.png) | 
 |:--:| 
-| *mood distribution on days in which I visited my family and I did not experience allergy symptoms and had no exam* |
+| *mood distribution on days with or without selected activites* |
 
+Apparently, sleep quality has a great influence on my mood. If I had a bad night of sleep, my mood is significantly worse than if I hadn't. However, the difference between a good night and an okayish night seems to be negligible.
 | ![mood distribution by sleep quality](images/personal_dashboard/mood distribution by activity value.png) | 
 |:--:| 
 | *mood distribution by sleep quality* |
