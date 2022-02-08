@@ -12,6 +12,16 @@
 |:--:| 
 | *correlation of activities on consecutive days* |
 
+### Mood Distribution
+
+| ![mood distribution with family without allergy and exam](images/personal_dashboard/mood distribution with or without activities.png) | 
+|:--:| 
+| *mood distribution on days in which I visited my family and I did not experience allergy symptoms and had no exam* |
+
+| ![mood distribution by sleep quality](images/personal_dashboard/mood distribution by activity value.png) | 
+|:--:| 
+| *mood distribution by sleep quality* |
+
 ### Visited Locations
 
 | ![map with custom markers](images/personal_dashboard/Besuche Hamburg Laeiszhalle.png) | 
