@@ -40,6 +40,6 @@ Fitting curves with increasing deegrees of freedom using Fourier Descriptors. In
 |:--:| 
 | *playing with the parameters of the Koch snowflake* |
 
-The [fundamental theorem of curves](https://en.wikipedia.org/wiki/Fundamental_theorem_of_curves) says that a curve is basically completely determined by it's curvature. The following "artwork" has been constructed using a randomly generated curvature
+The [fundamental theorem of curves](https://en.wikipedia.org/wiki/Fundamental_theorem_of_curves) says that a curve is basically completely determined by it's curvature. The following "artwork" has been constructed using a randomly generated curvature.
 
 | ![a randomly generated curve](images/math_projects/random curve.png) |
