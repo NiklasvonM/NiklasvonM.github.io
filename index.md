@@ -4,7 +4,7 @@
 
 ### Personal Projects
 
-[Personal Dashboard](/personal_dashboard)
+[Personal Dashboard](/projects/personal_dashboard)
 <img src="images/personal_dashboard/Akkorddiagramm anonymisiert.png?raw=true"/>
 
 <!---
@@ -13,8 +13,12 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 --->
 ---
-[Math Projects](/math_projects)
+[Math Projects](/projects/math_projects)
 <img src="images/math_projects/math_project_thumbnail.png?raw=true"/>
+
+---
+[Other Small Projects](/projects/other_projects)
+
 
 <!---
 ---
