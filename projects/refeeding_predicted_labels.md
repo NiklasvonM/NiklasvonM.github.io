@@ -60,7 +60,7 @@ Of the 70,000 data points we used 5% for the initial training phase. Then we tra
 
 ### Conclusion
 
-The above descriped "democratic" approach only works if the involved parties have different "beliefs". To put this into mathematical terms: In parameter estimation, the error of an unbiased estimator is it's variance. An intuition on why one might want to combine different estimators is the following: If you have $$n$$ estimators $$\theta_i$$ with the same variance, then
+The above descriped "democratic" approach only works if the involved parties have different "beliefs". To put this into mathematical terms: In parameter estimation, the error of an unbiased estimator is it's variance. An intuition on why one might want to combine different estimators is the following: If you have $n$ estimators $\theta_i$ with the same variance, then
 
 <img src="https://render.githubusercontent.com/render/math?math=Var(\frac{1}{n} \sum_{i=1}^n \theta_i) = \frac{1}{n^2} n Var(\theta_1) = \frac{1}{n} Var(\theta_1)">
 
