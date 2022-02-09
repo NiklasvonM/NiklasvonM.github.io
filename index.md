@@ -5,7 +5,7 @@
 ### Personal Projects
 
 [Personal Dashboard](/projects/personal_dashboard)
-<img src="images/personal_dashboard/Akkorddiagramm anonymisiert.png?raw=true"/>
+<img src="projects/personal_dashboard/images/Akkorddiagramm anonymisiert.png?raw=true"/>
 
 <!---
 ---
@@ -14,7 +14,7 @@
 --->
 ---
 [Math Projects](/projects/math_projects)
-<img src="images/math_projects/math_project_thumbnail.png?raw=true"/>
+<img src="projects/math_projects/images/math_project_thumbnail.png?raw=true"/>
 
 ---
 [Training Neural Networks With Self-Labeled Data](/projects/refeeding_predicted_labels)
