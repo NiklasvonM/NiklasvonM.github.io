@@ -42,4 +42,4 @@ file.close()
 ```
 
 The output .csv then looks something like this:
-<img src="images/music_csv.png?raw=true"/>
+<img src="images/other_projects_music_csv.png?raw=true"/>
