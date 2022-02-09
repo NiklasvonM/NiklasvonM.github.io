@@ -7,7 +7,7 @@ It is expected that not enough predictions are correct when the model has only b
 
 ### Methodology
 
-| ![64 by 64 pixel handwritten digit 0](images/MNIST_example_digit_0.png) | 
+| ![28 by 28 pixel handwritten digit 0](images/MNIST_example_digit_0.png) | 
 |:--:| 
 | *example MNIST handwritten digit* |
 
