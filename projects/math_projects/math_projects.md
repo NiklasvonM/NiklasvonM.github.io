@@ -28,6 +28,8 @@ Fitting curves with increasing deegrees of freedom using Fourier Descriptors. In
 
 ### Kalman-Bucy Filter
 
+[Short](Kalman_Bucy_Filter Handout.pdf) and [more indepth explanation](Kalman_Bucy_Filter Notizen.pdf) (both in German)
+
 ### Frequency Analysis
 
 | ![frequency spectrum and it's quantization of an audio file](images/Frequenzanalyse Audio.png) | 
