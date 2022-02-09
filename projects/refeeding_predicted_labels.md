@@ -64,4 +64,4 @@ The above descriped "democratic" approach only works if the involved parties hav
 
 <img src="https://render.githubusercontent.com/render/math?math=Var(\frac{1}{n} \sum_{i=1}^n \theta_i) = \frac{1}{n^2} n Var(\theta_1) = \frac{1}{n} Var(\theta_1)">
 
-if all $\theta_i$ have the same variance and are uncorrelated. However, our models are obviously not uncorrelated as they have the same structure and are trained with the same data.
+if all $\theta_i$ are uncorrelated. However, our models are obviously not uncorrelated as they have the same structure and are trained with the same data.
