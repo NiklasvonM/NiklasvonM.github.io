@@ -4,7 +4,7 @@
 
 ### Personal Projects
 
-[Personal Dashboard](/projects/personal_dashboard)
+[Personal Dashboard](/projects/personal_dashboard/personal_dashboard)
 <img src="projects/personal_dashboard/images/Akkorddiagramm anonymisiert.png?raw=true"/>
 
 <!---
@@ -13,14 +13,14 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 --->
 ---
-[Math Projects](/projects/math_projects)
+[Math Projects](/projects/math_projects/math_projects)
 <img src="projects/math_projects/images/math_project_thumbnail.png?raw=true"/>
 
 ---
-[Training Neural Networks With Self-Labeled Data](/projects/refeeding_predicted_labels)
+[Training Neural Networks With Self-Labeled Data](/projects/refeeding_predicted_labels/refeeding_predicted_labels)
 
 ---
-[Other Small Projects](/projects/other_projects)
+[Other Small Projects](/projects/other_projects/other_projects)
 
 
 <!---
