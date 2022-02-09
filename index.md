@@ -17,6 +17,9 @@
 <img src="images/math_projects/math_project_thumbnail.png?raw=true"/>
 
 ---
+[Training Neural Networks With Self-Labeled Data](/projects/refeeding_predicted_labels)
+
+---
 [Other Small Projects](/projects/other_projects)
 
 
