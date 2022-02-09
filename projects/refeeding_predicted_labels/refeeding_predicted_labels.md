@@ -11,7 +11,7 @@ It is expected that not enough predictions are correct when the model has only b
 |:--:| 
 | *example MNIST handwritten digit* |
 
-We decided on using the <a href="http://yann.lecun.com/exdb/mnist/" target="_blank" rel="noopener noreferrer">MNIST</a> data set of handwritten digits and, for simplicity, an ensemble of three (structurally equivalent) convolutional neural networks:
+We decided on using the <a href="http://yann.lecun.com/exdb/mnist/" target="_blank" rel="noopener noreferrer">MNIST</a> data set of handwritten digits and, for simplicity, an ensemble of four convolutional neural networks (of which two are respectively structurally equivalent) which are more or less of the following form:
 
 ```python
 def get_model_conv_nn(
@@ -52,7 +52,7 @@ def get_model_conv_nn(
     return model
 ```
 
-Of the 70,000 data points we used 5% for the initial training phase. Then we trained each model for 20 epochs and predicted the labels of the remaining data points. Afterwards, we add all data points for which all three models agree to the training set and repeat the previous set until they agree on less than 1,000 labels.
+Of the 70,000 data points we used 5% for the initial training phase. Then we trained each model for 10 epochs and predicted the labels of the remaining data points. Afterwards, we added all data points for which all three models agreed to the training set and repeated the previous step (with fresh, untrained models) until they agreed on less than 100 labels.
 
 ### Results
 
@@ -60,8 +60,10 @@ Of the 70,000 data points we used 5% for the initial training phase. Then we tra
 
 ### Conclusion
 
-The above descriped "democratic" approach only works if the involved parties have different "beliefs". To put this into mathematical terms: In parameter estimation, the error of an unbiased estimator is it's variance. An intuition on why one might want to combine different estimators is the following: If you have $$n$$ estimators $$\theta_i$$ with the same variance, then
+The above descriped "democratic" approach only works if the involved parties have different "beliefs". A mathematical intuition on why one might want to combine different estimators is the following: In parameter estimation, the error of an unbiased estimator is it's variance. And if you have $$n$$ estimators $$\theta_i$$ with the same variance, then
 
 <img src="https://render.githubusercontent.com/render/math?math=Var(\frac{1}{n} \sum_{i=1}^n \theta_i) = \frac{1}{n^2} n Var(\theta_1) = \frac{1}{n} Var(\theta_1)">
 
-if all $$\theta_i$$ are uncorrelated. However, our models are obviously not uncorrelated as they have the same structure and are trained with the same data.
+if all $$\theta_i$$ are uncorrelated. However, our models were obviously not uncorrelated as they had (almost) the same structure and, perhaps even more importantly, were trained on the same data.
+
+[Repository](https://gitlab.com/nniklasvm/machine-learning-project-2020)
