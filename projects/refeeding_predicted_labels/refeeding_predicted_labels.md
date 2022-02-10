@@ -76,9 +76,13 @@ One can show via
 <img src="https://render.githubusercontent.com/render/math?math=r_{i%2b1}-r_i = \frac{\sum_{j=1}^{i%2b1} r_{j-1}(n_j-n_{j-1})}{n_{i%2b1}} - \frac{\sum_{j=1}^i r_{j-1}(n_j-n_{j-1})}{n_i}">
 <img src="https://render.githubusercontent.com/render/math?math=\geq \frac{\sum_{j=1}^{i%2b1} r_{j-1}(n_j-n_{j-1})}{n_{i}} - \frac{\sum_{j=1}^i r_{j-1}(n_j-n_{j-1})}{n_i} = r_{i}(n_{i%2b1}-n_i) \geq 0">
 
-that the risks form an increasing sequence. Using [Chebyshev's sum inequality](https://en.wikipedia.org/wiki/Chebyshev%27s_sum_inequality), we even have
+that the risks form an increasing sequence. 
 
-<img src="https://render.githubusercontent.com/render/math?math=r_i \geq \left(\frac{1}{n_i} \sum_{j=1}^i r_{j-1}\right) \left(\frac{1}{n_i} \sum_{j=1}^i (n_j-n_{j-1})\right) = \left(\frac{1}{n_i} \sum_{j=1}^i r_{j-1}\right)%2b\frac{n_i-n_0}{n_i}.">
+<!--- Die Abschaetzung ist sehr schwach.
+Using [Chebyshev's sum inequality](https://en.wikipedia.org/wiki/Chebyshev%27s_sum_inequality), we even have
+
+<img src="https://render.githubusercontent.com/render/math?math=r_i \geq \left(\frac{1}{n_i} \sum_{j=1}^i r_{j-1}\right) \left(\frac{1}{n_i} \sum_{j=1}^i (n_j-n_{j-1})\right) = \left(\frac{1}{n_i} \sum_{j=1}^i r_{j-1}\right)\frac{n_i-n_0}{n_i}.">
+--->
 
 This suggests that, unfortunately, our approach has poor convergence properties.
 
