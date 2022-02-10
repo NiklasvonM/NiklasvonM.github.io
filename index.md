@@ -10,10 +10,10 @@
 ---
 [Training Neural Networks With Self-Labeled Data](/projects/refeeding_predicted_labels/refeeding_predicted_labels)
 <img src="projects/refeeding_predicted_labels/images/MNIST_example_digit_0.png?raw=true"/>
+
 ---
 [Math Projects](/projects/math_projects/math_projects)
 <img src="projects/math_projects/images/math_project_thumbnail.png?raw=true"/>
-
 
 ---
 [Other Small Projects](/projects/other_projects/other_projects)
