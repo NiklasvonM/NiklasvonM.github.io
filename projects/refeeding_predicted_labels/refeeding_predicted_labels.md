@@ -56,14 +56,14 @@ Of the 70,000 data points we used 5% for the initial training phase. Then we tra
 
 ### Results
 
-| Run | Training Data Size | Test Data Size | Number of Confident Predictions | Correct Predictions |
-|-----|--------------------|----------------|---------------------------------|---------------------|
-| 1   | 3,500              | 66,500         | 53,360                          | 52,966              |
-| 2   | 56,860             | 13,140         | 3,525                           | 3,066               |
-| 3   | 60,385             | 9,615          | 1,693                           | 933                 |
+| Run | Training Data Size | Test Data Size | Number of Confident Predictions | Correct Predictions | Percent Correct |
+|-----|--------------------|----------------|---------------------------------|---------------------|-----------------|
+| 1   | 3,500              | 66,500         | 53,360                          | 52,966              | 99.3            |
+| 2   | 56,860             | 13,140         | 3,525                           | 3,066               | 87.0            |
+| 3   | 60,385             | 9,615          | 1,693                           | 933                 | 55.1            |
 
-The models confidently agreed on a large amount of data after being trained on a small amount of training data with a low risk of $$1-\frac{52,966}{53,360}=0.7$$%.
-However, this risk increased to $$13.0$$% and $$44.9$$% after the second and third iteration respectively.
+The models confidently agreed on a large amount of data after being trained on a small amount of training data with a low risk.
+However, this risk increased drstically after the second and third iteration.
 
 ### Evaluation
 
