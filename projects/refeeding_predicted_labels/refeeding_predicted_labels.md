@@ -56,6 +56,15 @@ Of the 70,000 data points we used 5% for the initial training phase. Then we tra
 
 ### Results
 
+| Run | Training Data Size | Test Data Size | Number of Confident Predictions | Correct Predictions |
+|-----|--------------------|----------------|---------------------------------|---------------------|
+| 1   | 3,500              | 66,500         | 53,360                          | 52,966              |
+| 2   | 56,860             | 13,140         | 3,525                           | 3,066               |
+| 3   | 60,385             | 9,615          | 1,693                           | 933                 |
+
+The models confidently agreed on a large amount of data after being trained on a small amount of training data with a low risk of $$1-\frac{52,966}{53,360}=0.7%$$.
+However, this risk increased to 13.0% and 44.9% after the second and third iteration respectively.
+
 ### Evaluation
 
 
@@ -65,7 +74,7 @@ The above descriped "democratic" approach only works if the involved parties hav
 
 if all $$\theta_i$$ are uncorrelated. However, our models were obviously not uncorrelated as they had (almost) the same structure and, perhaps even more importantly, were trained on the same data.
 
-Some thoughts about the limiting behaviour: Assuming (the reasonable assumption) that our models form [consistent estimators](https://en.wikipedia.org/wiki/Consistent_estimator), it is to be expected that the risk of these models is in the limit not significantly better than the models after the first training iteration:
+Some thoughts about the limiting behaviour: Assuming that our models form [consistent estimators](https://en.wikipedia.org/wiki/Consistent_estimator) (which is reasonable), it is to be expected that the risk of these models is in the limit not better than the models after the first training iteration:
 Assume that $$0 < r_i < 1$$ is the models' risk before the $$i$$th iteration, i.e. $$1-r_i$$ is the share of correctly predicted labels at iteration $$i$$. Let $$n_0$$ be the size of the initial training set and $$n_i$$ be the size of the training set after the $$i$$th iteration, i.e. the models agreed on $$n_1-n_0$$ labels after the first training step.
 Then, in the second iteration, the models are (in expectation) trained with $$n_0+(1-r_1)(n_1-n_0)$$ correct labels and $$r_1(n_1-n_0)$$ wrong labels. If the models were to learn this data perfectly, the new risk would be the ratio between the number of wrong labels in the data training set and the size of the whole data set. We get the recurrence equation
 
@@ -88,5 +97,6 @@ This suggests that, unfortunately, our approach has poor convergence properties.
 
 ### Conclusion
 
+Both the data and our theoretical considerations suggest that retraining on self-labeled data worsens the model's performance. We have reason to believe that this is true even if the structures of the models used in the ensemble differ from each other.
 
 [Repository](https://gitlab.com/nniklasvm/machine-learning-project-2020)
