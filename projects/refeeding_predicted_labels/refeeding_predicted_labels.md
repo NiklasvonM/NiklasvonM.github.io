@@ -65,7 +65,7 @@ Of the 70,000 data points we used 5% for the initial training phase. Then we tra
 The models confidently agreed on a large amount of data after being trained on a small amount of training data with a low risk.
 However, this risk increased drstically after the second and third iteration.
 
-### Evaluation
+### Theoretical Evaluation
 
 
 The above descriped "democratic" approach only works if the involved parties have different "beliefs". A mathematical intuition on why one might want to combine different estimators is the following: In parameter estimation, the error of an unbiased estimator is it's variance. And if you have $$n$$ estimators $$\theta_i$$ with the same variance, then
