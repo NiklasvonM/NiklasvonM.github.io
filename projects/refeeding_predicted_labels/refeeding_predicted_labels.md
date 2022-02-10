@@ -69,11 +69,11 @@ Some thoughts about the limiting behaviour: Assuming (the reasonable assumption)
 Assume that $$0 < r_i < 1$$ is the models' risk before the $$i$$th iteration, i.e. $$1-r_i$$ is the share of correctly predicted labels at iteration $$i$$. Let $$n_0$$ be the size of the initial training set and $$n_i$$ be the size of the training set after the $$i$$th iteration, i.e. the models agreed on $$n_1-n_0$$ labels after the first training step.
 Then, in the second iteration, the models are (in expectation) trained with $$n_0+(1-r_1)(n_1-n_0)$$ correct labels and $$r_1(n_1-n_0)$$ wrong labels. If the models were to learn this data perfectly, the new risk would be the ratio between the number of wrong labels in the data training set and the size of the whole data set. We get the recurrence equation
 
-<img src="https://render.githubusercontent.com/render/math?math=r_i = \frac{\sum\limits_{j=1}^i r_{j-1}(n_j-n_{j-1})}{n_i}.">
+<img src="https://render.githubusercontent.com/render/math?math=r_i = \frac{\sum_{j=1}^i r_{j-1}(n_j-n_{j-1})}{n_i}.">
 
 By [Chebyshev's sum inequality](https://en.wikipedia.org/wiki/Chebyshev%27s_sum_inequality), we have
 
-<img src="https://render.githubusercontent.com/render/math?math=r_i \geq \left(\frac{1}{n_i} \sum\limits_{j=1}^i r_{j-1}\right) \left(\frac{1}{n_i} \sum\limits_{j=1}^i (n_j-n_{j-1})\right) = \left(\frac{1}{n_i} \sum\limits_{j=1}^i r_{j-1}\right)+\frac{n_i-n_0}{n_i}.">
+<img src="https://render.githubusercontent.com/render/math?math=r_i \geq \left(\frac{1}{n_i} \sum_{j=1}^i r_{j-1}\right) \left(\frac{1}{n_i} \sum_{j=1}^i (n_j-n_{j-1})\right) = \left(\frac{1}{n_i} \sum_{j=1}^i r_{j-1}\right)+\frac{n_i-n_0}{n_i}.">
 
 
 
