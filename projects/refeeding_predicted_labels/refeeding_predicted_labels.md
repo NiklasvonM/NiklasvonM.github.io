@@ -84,7 +84,7 @@ Then, in the second iteration, the models are (in expectation) trained with $$n_
 One can show via
 
 <img src="https://render.githubusercontent.com/render/math?math=r_{i%2b1}-r_i = \frac{\sum_{j=1}^{i%2b1} r_{j-1}(n_j-n_{j-1})}{n_{i%2b1}} - \frac{\sum_{j=1}^i r_{j-1}(n_j-n_{j-1})}{n_i}">
-<img src="https://render.githubusercontent.com/render/math?math=\geq \frac{\sum_{j=1}^{i%2b1} r_{j-1}(n_j-n_{j-1})}{n_{i}} - \frac{\sum_{j=1}^i r_{j-1}(n_j-n_{j-1})}{n_i} = r_{i}(n_{i%2b1}-n_i) \geq 0">
+<img src="https://render.githubusercontent.com/render/math?math=\geq \frac{\sum_{j=1}^{i%2b1} r_{j-1}(n_j-n_{j-1})}{n_{i}} - \frac{\sum_{j=1}^i r_{j-1}(n_j-n_{j-1})}{n_i} = r_{i}\frac{n_{i%2b1}-n_i}{n_i} \geq 0">
 
 that the risks form an increasing sequence. 
 
