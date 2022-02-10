@@ -62,8 +62,8 @@ Of the 70,000 data points we used 5% for the initial training phase. Then we tra
 | 2   | 56,860             | 13,140         | 3,525                           | 3,066               |
 | 3   | 60,385             | 9,615          | 1,693                           | 933                 |
 
-The models confidently agreed on a large amount of data after being trained on a small amount of training data with a low risk of $$1-\frac{52,966}{53,360}=0.7%$$.
-However, this risk increased to 13.0% and 44.9% after the second and third iteration respectively.
+The models confidently agreed on a large amount of data after being trained on a small amount of training data with a low risk of $$1-\frac{52,966}{53,360}=0.7$$%.
+However, this risk increased to $$13.0$$% and $$44.9$$% after the second and third iteration respectively.
 
 ### Evaluation
 
@@ -97,6 +97,6 @@ This suggests that, unfortunately, our approach has poor convergence properties.
 
 ### Conclusion
 
-Both the data and our theoretical considerations suggest that retraining on self-labeled data worsens the model's performance. We have reason to believe that this is true even if the structures of the models used in the ensemble differ from each other.
+Both the pratical results and theoretical considerations suggest that retraining on self-labeled data worsens the model's performance. We have reason to believe that this is true even if the structures of the models used in the ensemble differ from each other.
 
 [Repository](https://gitlab.com/nniklasvm/machine-learning-project-2020)
