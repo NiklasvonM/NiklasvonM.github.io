@@ -26,7 +26,7 @@ Apparently, sleep quality has a great influence on my mood. If I had a bad night
 |:--:|
 | *mood distribution by sleep quality* |
 
-<div> {% include_relative images/test2.html max-width="600px" %} </div>
+<div markdown = "0"> {% include_relative images/test2.html max-width="600px" %} </div>
 
 ## Visited Locations
 
