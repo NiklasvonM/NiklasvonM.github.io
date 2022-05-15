@@ -22,7 +22,7 @@ As understanding my own mood is the main focus of this project, I have put a goo
 
 Apparently, sleep quality has a great influence on my mood. If I had a bad night of sleep, my mood is significantly worse than if I hadn't. However, the difference between a good night and an okayish night seems to be almost negligible.
 
-<iframe src = "images/test.html" width="600" height="300"> </iframe>
+<iframe src = "images/mood_distribution_by_sleep_quality.html" width="600" height="300"> </iframe>
 
 ## Visited Locations
 
