@@ -1,3 +1,3 @@
 # HTML Test
 
-{% include html_test.html %}
+<!--{% include html_test.html %}-->
