@@ -1,3 +1,3 @@
 # HTML Test
 
-{% include projects/html_test/dynamic_html_test.html %}
+{% include_relative dynamic_html_test.html %}
