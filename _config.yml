@@ -6,7 +6,6 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/niklas-von-moers-a150071b4/" target="_blank" rel="noopener noreferrer">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
-future: true
 #google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
 ---
