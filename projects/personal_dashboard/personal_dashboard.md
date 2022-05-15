@@ -26,7 +26,7 @@ Apparently, sleep quality has a great influence on my mood. If I had a bad night
 |:--:|
 | *mood distribution by sleep quality* |
 
-<iframe src = "images/test.html" width="600" heigh="600"> </iframe>
+<iframe src = "images/test.html" width="600" height="600"> </iframe>
 
 ## Visited Locations
 
