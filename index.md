@@ -19,7 +19,7 @@
 [Other Small Projects](/projects/other_projects/other_projects)
 
 ---
-[HTML Test](/projects/html_test)
+[HTML Test](/projects/html_test/html_test)
 
 <!---
 ---
