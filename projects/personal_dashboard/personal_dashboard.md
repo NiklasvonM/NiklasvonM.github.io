@@ -1,6 +1,6 @@
 # Personal Dashboard
 
-I've been tracking my daily mood, activities and location using <a href="https://daylio.net/" target="_blank" rel="noopener noreferrer">Daylio</a> and the Google Maps Timeline for a couple of years and visualized and analyzed this data. For this purpose, I have developed a R Shiny app of which I am sharing a small excerpt with partially anonymized data.
+I've been tracking my daily mood, activities and location using <a href="https://daylio.net/" target="_blank" rel="noopener noreferrer">Daylio</a> and the Google Maps Timeline for a couple of years and visualized and analyzed this data. For this purpose, I have developed an R Shiny app of which I am sharing a small excerpt with partially anonymized data.
 
 ## Activity Correlation
 
