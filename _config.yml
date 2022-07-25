@@ -3,7 +3,7 @@ logo: "/profile_picture.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   I am a mathematics student located in Northern Germany with an interest in all things data.
   <br><br>
-  <a href="https://www.linkedin.com/in/niklas-von-moers-a150071b4/" target="_blank" rel="noopener noreferrer">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/niklas-von-moers-a150071b4/" target="_blank" rel="noopener noreferrer">View my LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 #google_analytics: UA-000000-0 # your Google Analytics tracking ID here
