@@ -10,11 +10,6 @@ Most of the activities I track are, for the ease of entering the values, indicat
 |:--:|
 | *14 day rolling sum of whether or not I have studied* |
 
-
-| ![graph network](images/Netzwerk.png) |
-|:--:|
-| *simulation of a physical network of activities where correlation corresponds to bond strength and color corresponds to correlation to mood* |
-
 ## Activity Correlation
 
 | ![graph network](images/Netzwerk.png) |
