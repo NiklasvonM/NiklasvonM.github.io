@@ -1,6 +1,11 @@
-## Other Small Projects
+# Other Small Projects
 
-### Parsing Files
+## Kiel's foreigners by home country
+
+<iframe src = "images/Kiel foreigners by home country.html" width="800" height="600"> </iframe>
+Source: [Open-Data Schleswig-Holstein](https://opendata.schleswig-holstein.de/dataset/auslander-nach-nationalitaet-und-geschlecht)
+
+## Parsing Files
 
 To backup all music files that I store on my computer, I wrote a short Python script that gets all file names that are in a specific format (e.g. mp3 or .wma) from a directory and tries to parse the artist and song name from the file name.
 
