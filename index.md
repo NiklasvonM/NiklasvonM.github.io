@@ -15,9 +15,10 @@
 [Math Projects](/projects/math_projects/math_projects)
 <img src="projects/math_projects/images/math_project_thumbnail.png?raw=true"/>
 
+<!--
 ---
 [HTML Test](/projects/html_test/html_test)
-
+-->
 ---
 [Other Small Projects](/projects/other_projects/other_projects)
 
