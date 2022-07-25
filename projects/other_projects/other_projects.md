@@ -2,7 +2,7 @@
 
 ## Kiel's foreigners by home country
 
-<iframe src = "images/Kiel foreigners by home country.html" width="800" height="600"> </iframe>
+<iframe src = "images/Kiel foreigners by home country.html" width="600" height="400"> </iframe>
 Source: [Open-Data Schleswig-Holstein](https://opendata.schleswig-holstein.de/dataset/auslander-nach-nationalitaet-und-geschlecht)
 
 ## Parsing Files
