@@ -21,7 +21,7 @@
 -->
 ---
 [Other Small Projects](/projects/other_projects/other_projects)
-<iframe src = "projects/other_projects/images/Kiel foreigners by home country.html"> </iframe>
+<iframe src = "projects/other_projects/images/Kiel foreigners by home country.html" width="600" height="400"> </iframe>
 
 <!---
 ---
