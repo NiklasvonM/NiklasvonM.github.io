@@ -5,6 +5,10 @@
 <iframe src = "images/Kiel foreigners by home country.html" width="600" height="400"> </iframe>
 Source: [Open-Data Schleswig-Holstein](https://opendata.schleswig-holstein.de/dataset/auslander-nach-nationalitaet-und-geschlecht)
 
+## Rent Price Index in Hamburg 2022
+
+<iframe src = "images/Mietpreisspiegel Hamburg 2022.html" width="600" height="400"> </iframe>
+
 ## Parsing Files
 
 To backup all music files that I store on my computer, I wrote a short Python script that gets all file names that are in a specific format (e.g. mp3 or .wma) from a directory and tries to parse the artist and song name from the file name.
